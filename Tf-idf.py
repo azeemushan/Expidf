@@ -49,7 +49,7 @@ class tfidf:
 
         return sims
 
-Doc1="In this lecture we discuss search-based evolutionary approaches to software modularization The following items will be discussed in this lecture Hill-climbing modularization approaches Simulated annealing algorithms Genetic-based algorithms Learning automataThe hill-climbing algorithm starts with a random initial solution within the search space A new solution is produced by modifying the initial one If the new solution is better than the previous one with respect to a given optimization function , it is accepted and the process continues in order to obtain a better solution The algorithm continues until no better solution is obtained When applied to the modularization problem the modularization quality is used as the optimization function However a major drawback of the hill-climbing algorithm is that it can become trapped in a local optima Hence many improved versions of the hill-climbing algorithm have been introduced to overcome this problem"
+Doc1="this is just example text" 
 Doc1.split()
 Doc1=TfIdf()
 Obj.addDocument("doc", Doc1)
